@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", serif;
+}
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+.header{
+    margin: 0 120px;
+}
+.navbar{
+    display: flex;
+    /* border: 1px solid orange; */
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header ul{
+    display: flex;
+}
+.list-item{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+.header nav ul a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+#Home{
+    color: #FEA301;
+}
+#About{
+    color: skyblue;
+}
+#Facilities{
+    color: #05D4DF;
+}
+#Admission{
+    color: #5D58EF;
+}
+.nav-btn{
+    padding: 10px 20px;
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 25px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    gap: 60px;
+}
+.banner-container h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-container p{
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+#Empowering{
+    color: #FEA301;
+}
+#vision{
+    color: skyblue;
+}
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.banner-btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.Curriculum-section{
+    text-align: center;
+    background-image: url(/assets/bg.png);
+}
+.card-container{
+    display: flex;
+    margin: 80px 120px;
+    gap: 30px;
+}
+.card{
+    border-radius: 15px;
+
+}
+.card img{
+    margin-top: 50px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.card-discription{
+    margin-bottom: 40px;
+    padding: 0 40px;
+    line-height: 27px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+.card-more{
+    margin-bottom: 55px;
+}
+#card1{
+    border: 1px solid #DEF5FF;
+    background-image: linear-gradient(#DEF5FF,white,white);
+
+}
+#card2{
+    border: 1px solid #FFF4DC;
+    background-image: linear-gradient(#FFF4DC,white,white);
+}
+#card3{
+    border: 1px solid #F2E8FF;
+    background-image: linear-gradient(#F2E8FF,white,white);
+}
+.Curriculum-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#arrow{
+    border: 1px solid #FEA301;
+    color: white;
+    background-color: orange;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    
+}
+
+
+
+
+
+
+.stories{
+    background-image: url(/assets/bg.png),linear-gradient(white,white,#e9b35587,#e9b35592);
+}
+.box-container{
+    display: flex;
+    margin: 80px 120px;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+
+.box-big{
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: white;
+}
+.box-big img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.btn-big-box{
+    background-color: #3CD8E8;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 47px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+.margin-topp{
+    margin-top: -25px;
+    margin-left: 30px;
+}
+.big-box-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 38px;
+    margin-top: 30px;
+}
+.big-box-discription{
+    margin: 20px 0 30px 0;
+    font-size: 0.9rem;
+}
+
+.second-box-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.second-box-container img{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+.sec-box{
+    background-color: white;
+    border-radius: 18px;
+}
+
+.sec-box-content{
+    margin-left: 25px;
+    margin-top: -22px;
+}
+
+#btn-sec-box1{
+    background-color: #FEA301;
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    color: white;
+}
+.sec-box-title{
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+
+@media screen and(max-width:576px) {
+    
+}
