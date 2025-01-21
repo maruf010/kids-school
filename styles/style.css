@@ -352,7 +352,7 @@
 }
 
 .footer{
-    background-color: #01ACFD;
+    background-color: #16a59e;
 }
 .footer-container{
     padding: 100px 0;
@@ -366,6 +366,7 @@
 }
 .footer-flex-logo img{
     height: 5rem;
+    /* background-color: wheat; */
 }
 .footer-title{
     color: white;
