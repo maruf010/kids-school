@@ -148,7 +148,7 @@
 }
 .Curriculum-section{
     text-align: center;
-    background-image: url(/assets/bg.png);
+    background-image: url('../assets/bg.png');
 }
 .card-container{
     display: flex;
@@ -242,7 +242,7 @@
     transition: 0.5s;
 }
 .stories{
-    background-image: url(/assets/bg.png),linear-gradient(white,#e7b96b45,#e8b76293);
+    background-image: url('../assets/bg.png'),linear-gradient(white,#e7b96b45,#e8b76293);
 }
 .box-container{
     display: flex;
