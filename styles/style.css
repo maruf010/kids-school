@@ -522,10 +522,6 @@
     }
 }
 
-/* Medium Device Responsive Styles */
-@media screen and (min-width:576) and (max-width:992) {
-    
-}
 
 /* Desktop Responsive styles */
 @media screen and (min-width:992px) {
